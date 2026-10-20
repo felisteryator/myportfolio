@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/faviconImg.jpg" />
+    <title>Felister – Software Engineer</title>
+    <script src="https://kit.fontawesome.com/a9cdbedf57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="#home" class="brand">My Portfolio</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero__text">
+          <p class="hero__hello" title="Hello, how are you?">Hi, there. I'm</p>
+          <h1>Felister Yator</h1>
+          <p class="hero__role">Web developer and software engineering student.</p>
+          <p class="hero__desc">
+            I build interactive websites with HTML, CSS and JavaScript, and I care about
+            getting both the design and the functionality right.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn-solid" href="#contact" title="Got a cool project? Let's work together!">Hire me</a>
+            <a class="btn btn-outline" href="assets/my cv/my CV.pdf" download>Download CV</a>
+          </div>
+          <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/felister-yator-661572438/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/felisteryator" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a></li>
+          </ul>
+        </div>
+        <div class="hero__photo">
+          <img src="assets/img/Professionalphoto.png" alt="Portrait of Felister" />
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <div class="about__body">
+          <p>
+            I'm a software engineering student who enjoys web development and building
+            technology that solves real problems. I work with HTML, CSS, JavaScript and
+            React, and I'm growing towards becoming a full-stack developer.
+          </p>
+          <p>
+            My projects so far include Park254, Real Time Beauty Connect and Haven Beauty
+            Parlour. Each one taught me something about creativity, problem-solving and
+            shipping something people can use.
+          </p>
+          <a class="btn btn-solid" href="https://github.com/felisteryator" target="_blank" rel="noopener">See my GitHub</a>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+          <li class="skill">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML5</h3>
+            <p>Semantic, accessible page structure.</p>
+          </li>
+          <li class="skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Responsive layouts with Flexbox and Grid.</p>
+          </li>
+          <li class="skill">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive features and DOM scripting.</p>
+          </li>
+          <li class="skill">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+            <p>Reusable components and dynamic interfaces.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li class="project">
+            <i class="fa-solid fa-square-parking project__icon"></i>
+            <div>
+              <h3>Park254</h3>
+              <p>A web-based parking management system. Drivers see available slots in real time before they arrive, which cuts congestion and saves time.</p>
+            </div>
+            <a class="btn btn-outline" href="https://github.com/felisteryator/Park254" target="_blank" rel="noopener">View code</a>
+          </li>
+          <li class="project">
+            <i class="fa-solid fa-scissors project__icon"></i>
+            <div>
+              <h3>Haven Beauty Parlour</h3>
+              <p>A salon website where clients browse hair, nail and makeup services, check prices, find the location and contact details, and create an account.</p>
+            </div>
+            <a class="btn btn-outline" href="https://github.com/felisteryator/havenbeautyparlour" target="_blank" rel="noopener">View code</a>
+          </li>
+          <li class="project">
+            <i class="fa-solid fa-calendar-check project__icon"></i>
+            <div>
+              <h3>Real Time Beauty Connect</h3>
+              <p>A TypeScript platform where clients check parlour availability in real time and book appointments in advance, avoiding queues and waiting.</p>
+            </div>
+            <a class="btn btn-outline" href="https://github.com/felisteryator/real-time-beauty-connect" target="_blank" rel="noopener">View code</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <h2>Let's work together</h2>
+        <form action="" method="post">
+          <label>Full name <input type="text" name="name" required /></label>
+          <label>Email <input type="email" name="email" required /></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-solid" type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year">2026</span> <a href="https://github.com/felisteryator" target="_blank" rel="noopener">Felister</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
